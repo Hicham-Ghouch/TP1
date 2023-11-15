@@ -33,15 +33,15 @@ if ($conn->connect_error) {
 <p>Please fill this form and submit to add employee record to the database.</p>
 <form action="insert.php" method="post">
 <div class="form-group">
-<label>Nom</label>
+<label>Nom:</label>
 <input type="text" name="name" class="form-control">
 </div>
 <div class="form-group">
-<label>Prenom</label>
+<label>Prenom:</label>
 <input type="email" name="email" class="form-control">
 </div>
 <div class="form-group">
-<label>Tel</label>
+<label>Tel:</label>
 <input type="mobile" name="mobile" class="form-control">
 </div>
 <input type="submit" class="btn btn-primary" name="submit" value="Submit">
